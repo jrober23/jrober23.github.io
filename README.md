@@ -29,3 +29,12 @@ GROUP BY
 HAVING
   COUNT(Orders.order_id) > 0
 ```  
+# Tableau
+
+You can view Tableau projects below.
+
+[Just the Data - World Happiness](https://public.tableau.com/views/JusttheData-WorldHappiness_16454917106770/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+[WrestleMania Attendance Stats](https://public.tableau.com/views/WrestleManiaAttendanceStats/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+[Global CO2 Emissions](https://public.tableau.com/views/GlobalCO2Emissions_16454879666530/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
