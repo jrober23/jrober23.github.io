@@ -3,7 +3,7 @@
 
 Wrote a complex query to join an Order Summary table and a Warehouse table to create a Warehouse Fulfillment Summary table to track the number of total orders completed by each warehouse. There were 9999 total orders and 7 warehouses. The warehouse with the lowest total orders was located in Knoxville, TN while the warehouse with the highest total was located in Lansing, MI. 
 
-```
+```MySQL
 SELECT 
    Warehouse.warehouse_id,
    CONCAT(Warehouse.state, ': ', Warehouse.warehouse_alias) AS warehouse_name,
@@ -44,7 +44,7 @@ You can view Tableau projects below.
 
 Created a visualization comparing the body mass and flipper length of three species of penguins: Adelie, Chinstrap, Gentoo. The males and females of each species were also compared. The males of each species were larger than their respective females. However, the Gentoo females were larger than both the Adelie, and Chinstrap males. The Gentoo was the overall larger species. 
 
-```
+```R
 install.packages("ggplot2")
 install.packages("palmerpenguins")
 
